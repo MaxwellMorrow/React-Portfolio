@@ -1,18 +1,30 @@
+// import section
 import "./App.css";
-import Header from "./components/Header";
-import LeftSide from "./components/LeftSide";
-import RightSide from "./components/RightSide";
+import NavBar from "./components/NavBar";
+// import LeftSide from "./components/LeftSide";
+// import RightSide from "./components/RightSide";
 import Main from "./components/Main";
-function App() {
-  const name = "suzy";
+import AboutMe from "./components/AboutMe";
+import ContactMe from "./components/ContactMe";
+import Projects from "./components/Projects";
+
+
+// app function
+export default function App() {
+// vanilla JS section
+
+
+
+
+// JSX return
   return (
     <div className="App">
-      <Header />
-      <LeftSide />
-      <Main name={"Max Morrow"} />
-      <RightSide />
+      <NavBar/>
+      <Main />
+      <AboutMe/>
+      <Projects/>
+      <ContactMe/>
     </div>
   );
 }
 
-export default App;
