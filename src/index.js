@@ -5,13 +5,13 @@ import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css";
 // import store related things
 import { Provider } from "react-redux";
-import { store } from "./store/colorStore";
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <Provider>
     <App />
     </Provider>
   </React.StrictMode>,
