@@ -2,16 +2,16 @@ import React from 'react'
 import { Navbar } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
+
 
 
 // CSS inside javascript 
 
 export default function NavBar() {
-  const dispatch = useDispatch();
+ 
 
   return (
-    <Navbar variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Max Morrow</Navbar.Brand>
         <Nav className="me-auto">
